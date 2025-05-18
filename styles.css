@@ -1,0 +1,142 @@
+body {
+    font-family: Helvetica;
+    background-color: #FFFDEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: auto;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: #FFE2E2;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+}
+
+h1 {
+  color: #86A788;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.input-section {
+    margin-bottom: 60px;
+    font-family: helvetica;
+    font-weight: bold;
+    font-size: 14px;
+    color: #000000;
+    margin-right: 10px;
+}
+
+#framesInput {
+    font-family: monosapace;
+    font-size: 14px;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 5px;
+    border: none;
+    width: 30px;
+    text-align: center;
+    background-color: #FFCFCF;
+}
+
+input[type="text"] {
+    font-family: monosapace;
+    font-size: 14px;
+    padding: 8px;
+    margin: 4px;
+    border-radius: 5px;
+    border: none;
+    width: 255px;
+    text-align: center;
+    background-color: #FFCFCF;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+button {
+    font-size: 14px;
+    padding: 10px 20px;
+    margin: 7px;
+    background-color: #86A788;
+    border: none;
+    color: #000000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    font-family: helvetica;
+    font-weight: bold;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #000000;
+    color: #86A788;
+}
+
+#clearButton {
+    background-color: #000;
+    color: #86A788;
+}
+
+#clearButton:hover {
+    background-color: #86A788;
+    color: #000;
+}
+
+.output-section {
+    margin-top: 50px;
+    margin: 20px;
+}
+
+.output {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.output, #fifoOutput, #lruOutput, #optOutput {
+    background-color: #FFCFCF;
+    margin: 7px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #000000;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    text-align: left;
+}
+
+.output h3 {
+  align-items: center;
+}
+
+.warning {
+    font-size: 10px;
+    font-family: monospace;
+    color: red;
+}
+
+table, th, td {
+    margin-top: 10px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+}

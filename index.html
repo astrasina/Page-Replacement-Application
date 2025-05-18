@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title> Page Replacement Algorithm </title>
+    <link rel = "stylesheet" href = "styles.css">
+</head>
+
+<body>
+    <div class = "container">
+        <h1> Page Replacement Algorithm Simulator </h1>
+
+        <div class = "input-section">
+            <label for = "framesInput"> Enter number of frames: </label>
+            <input type = "text" id = "framesInput" placeholder = "#" min = "1">
+                <br>
+            <span id = "framesWarning" class = "warning"> </span>
+                <br>
+            <label for = "referenceInput"> Reference String: </label>
+            <input type = "text" id = "referenceInput" placeholder = "Enter reference string (separated by spaces)">
+                <br>
+            <span id = "referenceWarning" class = "warning"> </span>
+                <br>
+        <div class = "buttons">
+                    <button id = "runButton"> Go! </button>
+                    <button id = "randomizeButton"> Randomize </button>
+                    <button id = "clearButton"> Clear </button>
+        </div>
+        </div>
+
+        <div class = "output-section">
+                <div class = "output">
+                    <h3> FIFO Algorithm </h3>
+                    <div id = "fifoOutput"> </div>
+                </div>
+                <div class = "output">
+                    <h3> LRU Algorithm </h3>
+                    <div id = "lruOutput"> </div>
+                </div>
+                <div class = "output">
+                    <h3> Optimal Algorithm </h3>
+                    <div id = "optOutput"> </div>
+                </div>
+        </div>
+    </div>
+    
+    <script src="cs-os.js"> </script>
+
+</body>
+</html>
